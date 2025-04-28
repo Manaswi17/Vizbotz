@@ -6,10 +6,9 @@ import json
 import os
 import pandas as pd
 
-# Page Config
+
 st.set_page_config(page_title="VizBotz - Data Visualizer", layout="wide")
 
-# Load .env
 load_dotenv()
 
 # ---------- SIDEBAR ----------

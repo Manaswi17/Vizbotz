@@ -1,6 +1,6 @@
-# 📊 VizBotz - AI-Powered Data Visualizer 🚀
+# VizBotz - AI-Powered Data Visualizer 
 
-🔗 [Live Application Link](https://vizbotz.streamlit.app/)
+[Live Application Link](https://vizbotz.streamlit.app/)
 
 ---
 
@@ -118,7 +118,7 @@ Users can upload CSV datasets, generate professional charts, and receive executi
 
 ---
 
-## 📚 References
+## References
 - [Google Gemini API Documentation](https://ai.google.dev/gemini-api/docs)
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Altair + Vega-Lite Visualization Grammar](https://vega.github.io/vega-lite/)
