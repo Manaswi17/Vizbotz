@@ -4,13 +4,14 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 import re
+import streamlit as st
 
 class Process_data:
 
     def __init__(self, data):
         self.data = pd.read_csv(data)
         load_dotenv()
-        self.gemini_api_key = os.getenv("GEMINI_API_KEY")
+        self.gemini_api_key = st.secrets("GEMINI_API_KEY")
         if self.gemini_api_key:
             genai.configure(api_key=self.gemini_api_key)
 
