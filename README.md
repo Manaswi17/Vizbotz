@@ -113,9 +113,22 @@ Users can upload CSV datasets, generate professional charts, and receive executi
 ## **Deployment**
 
 - Hosted on **Streamlit Cloud**:  
-🔗 [VizBotz Live Link](https://vizbotz.streamlit.app/)
+[VizBotz Live Link](https://vizbotz.streamlit.app/)
 - Secrets (e.g., GEMINI_API_KEY) are managed securely using platform-provided **Secrets Manager**.
 
+---
+### **Screenshots of working app**
+### **Landing Page**
+![Landing Page](images/Landing.jpg) 
+### **Uploading CSV File**
+![Upload](images/Upload.jpg) 
+### **Data Highlights**
+![DataInfo](images/DataInfo.jpg)  
+### **Graph Generation**
+![Graph](images/Graph.jpg) 
+### **AI Insights**
+![AI Insights](images/AI.jpg)    
+ 
 ---
 
 ## References
